@@ -1,0 +1,5 @@
+SELECT * FROM `leave` 
+				WHERE emp_id = '1' 
+				AND leave_status = '1' 
+				AND (leave_start_day >= '2016-04-22' AND leave_end_day <= '2016-04-22') 
+				
